@@ -1,0 +1,16 @@
+\documentclass[letterpaper]{article}
+\usepackage[centering,width=8.5in,height=11in]{geometry}
+\usepackage{pstricks}
+\pagestyle{empty}
+\begin{document}
+
+\psset{unit=1in}
+\begin{pspicture}(8.5,11)% use your page size
+  \rput[b](3.5,8){\parbox{5in}{\begin{flushright}
+    \Huge\bfseries\sffamily Banners \&\\ Broadsides
+    \end{flushright}}}
+  \uput[-90](3.5,8){\color{red}\rule{5in}{1ex}}
+  % ...
+\end{pspicture}
+
+\end{document}
